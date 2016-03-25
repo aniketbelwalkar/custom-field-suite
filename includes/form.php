@@ -362,7 +362,7 @@ CFS['loop_buffer'] = [];
                 else {
     ?>
 
-        <div class="field field-<?php echo $field->name; ?>" data-type="<?php echo $field->type; ?>" data-name="<?php echo $field->name; ?>"">
+        <div class="field field-<?php echo $field->name; ?>" data-type="<?php echo $field->type; ?>" data-name="<?php echo $field->name; ?>">
             <?php if ( 'loop' == $field->type ) : ?>
             <span class="cfs_loop_toggle" title="<?php esc_html_e( 'Toggle row visibility', 'cfs' ); ?>"></span>
             <?php endif; ?>
